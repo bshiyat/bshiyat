@@ -1,347 +1,220 @@
-# Bshiyat - AI/AGI Technology Company Website
+```ascii
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║     ██████╗ ███████╗██╗  ██╗██╗██╗   ██╗ █████╗ ████████╗                  ║
+║     ██╔══██╗██╔════╝██║  ██║██║╚██╗ ██╔╝██╔══██╗╚══██╔══╝                  ║
+║     ██████╔╝███████╗███████║██║ ╚████╔╝ ███████║   ██║                     ║
+║     ██╔══██╗╚════██║██╔══██║██║  ╚██╔╝  ██╔══██║   ██║                     ║
+║     ██████╔╝███████║██║  ██║██║   ██║   ██║  ██║   ██║                     ║
+║     ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝                     ║
+║                                                                              ║
+║                    >> ELITE CYBER OPERATIONS <<                             ║
+║              [ Crafting Tomorrow's Intelligence Today ]                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-> Pioneering Intelligent Solutions for Digital Transformation
+<div align="center">
 
-A cutting-edge, modern company website showcasing Bshiyat's AI/AGI technology solutions. Built with pure HTML, CSS, and JavaScript featuring glassmorphism design, particle animations, and smooth scroll effects.
+### `> SYSTEM_STATUS: ONLINE`
+### `> ACCESS_LEVEL: FOUNDER & CEO`
+### `> MISSION: WEAPONIZING AI/AGI FOR DIGITAL DOMINATION`
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+</div>
 
 ---
 
-## ✨ Features
+## `>> whoami`
 
-### Design & Aesthetics
-- **Modern Glassmorphism UI** - Translucent cards with backdrop blur effects
-- **Dark Mode by Default** - Professional dark theme with electric blue accents
-- **Gradient Animations** - Dynamic color-shifting text and elements
-- **Particle Background** - Interactive particle system in hero section
-- **Smooth Animations** - Scroll-triggered animations and parallax effects
+```python
+class Founder:
+    def __init__(self):
+        self.name = "Bakr Shwabkeh"
+        self.role = "Founder & CEO @ Bshiyat"
+        self.location = "🌍 Global Operations"
+        self.passion = "Transforming code into intelligent solutions"
+        self.origin = "Started with Windows XP, RGB pixels, and endless curiosity"
 
-### Functionality
-- **Responsive Design** - Mobile-first approach, works on all devices
-- **Sticky Navigation** - Transforms on scroll with glassmorphic background
-- **Animated Stats Counter** - Numbers count up when scrolled into view
-- **Smooth Scrolling** - Seamless navigation between sections
-- **Contact Form** - Fully functional with validation and notifications
-- **Interactive Elements** - Hover effects, transitions, and micro-interactions
-- **Performance Optimized** - Throttled scroll events and intersection observers
+    def current_mission(self):
+        return """
+        Leading a team that pioneers intelligent solutions:
+        ▹ Adaptive AGI agents (virtual employees)
+        ▹ High-performance APIs & apps
+        ▹ Hardware integrations & IoT
+        ▹ Bridging physical and digital realms
+        """
 
-### Content Sections
-1. **Hero Section** - Bold headline with animated stats and CTA
-2. **About** - Mission, values, founder info, and global reach
-3. **Solutions** - 4 flagship products with detailed features
-4. **Industries** - Target sectors and use cases
-5. **Why Bshiyat** - Key differentiators and advantages
-6. **Contact** - Professional contact form with features list
-7. **Footer** - Navigation links and company info
-
----
-
-## 🚀 Quick Start
-
-### Option 1: Direct File Opening
-1. Download all files to a folder
-2. Double-click `index.html`
-3. Website opens in your default browser
-
-### Option 2: Local Server (Recommended)
-
-#### Using Python:
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-
-#### Using Node.js (http-server):
-```bash
-npm install -g http-server
-http-server -p 8000
-```
-
-#### Using PHP:
-```bash
-php -S localhost:8000
-```
-
-Then open: `http://localhost:8000`
-
----
-
-## 📁 Project Structure
-
-```
-bshiyat-website/
-│
-├── index.html          # Main HTML structure
-├── styles.css          # All styles and animations
-├── script.js           # Interactive functionality
-└── README.md           # Documentation (this file)
+    def philosophy(self):
+        return "We don't just build software—we illuminate the unknown 🚀"
 ```
 
 ---
 
-## 🎨 Customization Guide
+## `>> ./arsenal.sh`
 
-### Colors
-Edit the CSS variables in `styles.css` (lines 10-25):
+<div align="center">
 
-```css
-:root {
-    --primary-blue: #0066FF;        /* Main brand color */
-    --electric-cyan: #00E5FF;       /* Accent color */
-    --electric-purple: #7C3AED;     /* Secondary accent */
-    --deep-bg: #0A0E27;             /* Background */
-    --dark-surface: #151932;        /* Surface color */
-}
-```
+### **⚡ CYBER WEAPONS DEPLOYED**
 
-### Typography
-Change fonts by modifying the Google Fonts import in `index.html` (line 9-10):
+| **WEAPON** | **DESCRIPTION** | **STATUS** |
+|------------|-----------------|------------|
+| 🔧 **DataForge APIs** | High-performance data integration platform | `[ACTIVE]` |
+| 🤖 **IntelliBot Framework** | Virtual employees with multi-modal AI | `[DEPLOYED]` |
+| 📱 **Bshiyat Ecosystem** | PWA mobile apps & web platforms | `[OPERATIONAL]` |
+| 🔌 **Syntho Core Series** | AI-embedded IoT devices | `[ENGAGED]` |
 
-```html
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-```
-
-And update CSS variables:
-```css
---font-primary: 'Inter', sans-serif;
---font-display: 'Space Grotesk', sans-serif;
-```
-
-### Content
-Update text directly in `index.html`:
-- **Hero section**: Lines 45-85
-- **About section**: Lines 90-145
-- **Solutions**: Lines 150-280
-- **Contact info**: Update form action or add backend integration
-
-### Stats Counter
-Modify target values in HTML `data-target` attributes:
-
-```html
-<div class="stat-value" data-target="60">0</div>
-```
+</div>
 
 ---
 
-## 🌐 Deployment
+## `>> cat /tech-stack.txt`
 
-### GitHub Pages
-1. Create a GitHub repository
-2. Upload all files
-3. Go to Settings → Pages
-4. Select source: `main` branch
-5. Save and wait for deployment
+<div align="center">
 
-### Netlify
-1. Create account at [netlify.com](https://netlify.com)
-2. Drag and drop your folder
-3. Site goes live instantly
-4. Custom domain available
+### **🛠️ TECHNOLOGIES & FRAMEWORKS**
 
-### Vercel
-```bash
-npm i -g vercel
-cd your-project-folder
-vercel
-```
+#### **Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-### Traditional Hosting (cPanel, etc.)
-1. Upload all files via FTP
-2. Place in `public_html` or `www` folder
-3. Access via your domain
+#### **AI/ML**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
----
+#### **Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 🔧 Advanced Configuration
+#### **Backend & Database**
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-### Form Integration
+#### **DevOps & Tools**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
-#### With Formspree:
-1. Sign up at [formspree.io](https://formspree.io)
-2. Add action to form in `index.html`:
-```html
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-#### With EmailJS:
-1. Add EmailJS library before closing `</body>`:
-```html
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-```
-
-2. Update `initFormHandler()` in `script.js` with EmailJS config
-
-### Analytics Integration
-
-Add before closing `</head>` tag:
-
-```html
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
-```
-
-### SEO Optimization
-
-Update meta tags in `<head>`:
-
-```html
-<!-- Essential META Tags -->
-<meta property="og:title" content="Bshiyat - AI/AGI Solutions">
-<meta property="og:type" content="website">
-<meta property="og:image" content="URL_TO_IMAGE">
-<meta property="og:url" content="https://yourdomain.com">
-<meta name="twitter:card" content="summary_large_image">
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="favicon.png">
-```
+</div>
 
 ---
 
-## 📱 Browser Support
+## `>> grep -r "impact" ./global_operations/`
 
-- ✅ Chrome/Edge 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Opera 76+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+<div align="center">
 
-**Note**: Requires modern browser with support for:
-- CSS Grid & Flexbox
-- CSS Custom Properties
-- Intersection Observer API
-- Canvas API
+### **🌐 GLOBAL REACH**
+
+```
+Jordan  🇯🇴  │  UAE 🇦🇪  │  Saudi Arabia 🇸🇦  │  Egypt 🇪🇬
+Germany 🇩🇪  │  UK 🇬🇧   │  France 🇫🇷        │  USA 🇺🇸  │  Singapore 🇸🇬
+```
+
+### **📊 OPERATIONAL METRICS**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  💰 Cost Reduction ............... 60%                      │
+│  ⚡ API Capacity ................ 10K req/sec               │
+│  👥 Concurrent Users ............ 50K+                      │
+│  📈 Engagement Improvement ...... 35%                       │
+│  🔧 Downtime Reduction .......... 50%                       │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
 
 ---
 
-## 🎯 Performance Tips
-
-1. **Optimize Images**: Use WebP format, compress images
-2. **Minify Files**: Use tools like `uglify-js` and `cssnano`
-3. **Enable Caching**: Configure caching headers
-4. **CDN**: Use Cloudflare or similar for static assets
-5. **Lazy Loading**: Uncomment lazy load function in `script.js`
-
-### Minification Commands:
+## `>> ls -la /current-focus/`
 
 ```bash
-# CSS
-npx cssnano styles.css styles.min.css
+drwxr-xr-x  2 bshiyat elite  4096 Jan  3 2026 .
+drwxr-xr-x 14 bshiyat elite  4096 Jan  3 2026 ..
+-rw-r--r--  1 bshiyat elite  2048 Jan  3 2026 adaptive_agi_agents.py
+-rw-r--r--  1 bshiyat elite  1024 Jan  3 2026 intelligent_automation.js
+-rw-r--r--  1 bshiyat elite  3072 Jan  3 2026 hardware_software_integration.cpp
+-rw-r--r--  1 bshiyat elite  1536 Jan  3 2026 scalable_solutions.ts
+```
 
-# JavaScript
-npx uglify-js script.js -o script.min.js -c -m
+**Currently Engineering:**
+- 🧠 Multi-modal AGI systems (text, voice, images)
+- ⚙️ Seamless workflow automation
+- 🔌 AI-embedded IoT innovations
+- 🚀 Next-gen intelligent platforms
+
+---
+
+## `>> ./github-stats.sh`
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bshiyat&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff00&icon_color=00ff00&text_color=00ff00)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bshiyat&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=00ff00)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bshiyat&theme=radical&hide_border=true&background=0d1117&stroke=00ff00&ring=00ff00&fire=00ff00&currStreakLabel=00ff00)
+
+</div>
+
+---
+
+## `>> cat /industries-served.log`
+
+```log
+[LOGIS] Logistics .................... Intelligent routing & inventory
+[MANUF] Manufacturing ................ Smart automation & IoT
+[ECOMM] E-Commerce ................... AI personalization & APIs
+[ESTAT] Real Estate .................. Digital solutions & automation
 ```
 
 ---
 
-## 🐛 Troubleshooting
+## `>> tail -f /contact.txt`
 
-### Issue: Animations not working
-**Solution**: Check browser console for errors. Ensure JavaScript is enabled.
+<div align="center">
 
-### Issue: Particle background not showing
-**Solution**: Canvas API must be supported. Check `particleCanvas` element exists.
+### **🔗 ESTABLISH SECURE CONNECTION**
 
-### Issue: Mobile menu not opening
-**Solution**: Verify `navToggle` and `navMenu` IDs match in HTML and JS.
-
-### Issue: Stats not counting
-**Solution**: Ensure stats are scrolled into view. Check `data-target` attributes.
-
-### Issue: Form not submitting
-**Solution**: Check browser console. Add backend integration or use Formspree/EmailJS.
+[![Website](https://img.shields.io/badge/Website-00FF00?style=for-the-badge&logo=google-chrome&logoColor=black)](https://bshiyat.github.io/bshiyat/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bakr-shwabkeh)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bshiyat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@bshiyat.com)
 
 ---
 
-## 🔄 Future Enhancements
-
-Potential features to add:
-
-- [ ] Blog section with CMS integration
-- [ ] Case studies/portfolio showcase
-- [ ] Live chat widget
-- [ ] Multi-language support
-- [ ] Dark/Light mode toggle
-- [ ] Video backgrounds
-- [ ] Team member profiles
-- [ ] Client testimonials carousel
-- [ ] Interactive product demos
-- [ ] Newsletter signup
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-```
-MIT License
-
-Copyright (c) 2026 Bshiyat
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```ascii
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  "From childhood wonder to AI-driven innovation—              │
+│   transforming beautiful code into meaningful impact,          │
+│   one intelligent solution at a time."                         │
+│                                                                 │
+│                                        — Bakr Shwabkeh         │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
----
+### `> ACCESS_GRANTED: Welcome to the digital frontier_ █`
 
-## 👥 Credits
-
-**Designed & Developed for Bshiyat**
-
-- Design Inspiration: Modern AI/tech company websites
-- Fonts: Google Fonts (Inter, Space Grotesk)
-- Icons: Unicode emoji and custom SVG
-- Particle System: Custom Canvas implementation
+</div>
 
 ---
 
-## 📞 Support
+<div align="center">
 
-For questions or support:
-- Website: Use the contact form
-- GitHub: Open an issue in the repository
+![Profile Views](https://komarev.com/ghpvc/?username=bshiyat&color=00ff00&style=for-the-badge&label=PROFILE+VIEWS)
 
----
+**[ © 2026 BSHIYAT ] >> ALL_RIGHTS_RESERVED // UNAUTHORIZED_ACCESS_PROHIBITED**
 
-## 🌟 Showcase
+*Engineered with bleeding-edge AI/AGI exploits*
 
-This website features:
-- ⚡ **Zero Dependencies** - Pure vanilla JavaScript
-- 🎨 **Modern Design** - Glassmorphism & gradient effects
-- 📱 **Fully Responsive** - Works on all screen sizes
-- ♿ **Accessible** - Semantic HTML and ARIA labels
-- 🚀 **Fast** - Optimized performance with lazy loading
-- 💎 **Production Ready** - Clean, maintainable code
-
----
-
-**Built with ❤️ for Bshiyat - Crafting Tomorrow's Intelligence Today**
-
-*Last updated: January 2026*
+</div>
