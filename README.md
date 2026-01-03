@@ -215,6 +215,6 @@ drwxr-xr-x 14 bshiyat elite  4096 Jan  3 2026 ..
 
 **[ © 2026 BSHIYAT ] >> ALL_RIGHTS_RESERVED // UNAUTHORIZED_ACCESS_PROHIBITED**
 
-*Engineered with bleeding-edge AI/AGI exploits*
+*Engineered with Bshiyat AI/AGI exploits*
 
 </div>
