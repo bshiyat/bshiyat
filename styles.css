@@ -1067,9 +1067,11 @@ a {
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
     align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .about-text {
@@ -1437,6 +1439,50 @@ a {
 .form-group textarea {
     resize: vertical;
     min-height: 120px;
+}
+
+/* ========== CONTACT DIRECT ========== */
+.contact-direct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    gap: 1.5rem;
+}
+
+.contact-direct-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-gray-700);
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-gray-900) 0%, var(--color-gray-950) 100%);
+}
+
+.contact-direct-icon svg {
+    width: 36px;
+    height: 36px;
+    color: var(--color-white);
+}
+
+.contact-direct h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.contact-direct p {
+    color: var(--color-gray-400);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-direct .btn {
+    font-size: 1.1rem;
+    padding: 1.25rem 2.5rem;
 }
 
 /* ========== FOOTER ========== */
