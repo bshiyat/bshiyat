@@ -8,11 +8,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     initGlobe();
     initNavigation();
-    initMetricsCounter();
     initSmoothScroll();
-    initFormHandler();
     initScrollReveal();
-    initCapabilityAnimations();
 });
 
 // ============= 3D GLOBE (Enhanced) =============
@@ -318,79 +315,6 @@ function initScrollReveal() {
     });
 }
 
-// ============= CAPABILITY ANIMATIONS =============
-function initCapabilityAnimations() {
-    const categories = document.querySelectorAll('.capability-category');
-
-    const observerOptions = {
-        threshold: 0.2,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
-            if (entry.isIntersecting) {
-                // Stagger the animation
-                setTimeout(() => {
-                    entry.target.classList.add('visible');
-                }, index * 150);
-            }
-        });
-    }, observerOptions);
-
-    categories.forEach(category => {
-        observer.observe(category);
-    });
-}
-
-// ============= METRICS COUNTER (Enhanced) =============
-function initMetricsCounter() {
-    const metrics = document.querySelectorAll('.metric-value');
-    let started = false;
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting && !started) {
-                started = true;
-                metrics.forEach((metric, index) => {
-                    const target = parseInt(metric.getAttribute('data-target'));
-                    // Stagger start of animations
-                    setTimeout(() => {
-                        animateCounter(metric, 0, target, 2000);
-                    }, index * 200);
-                });
-            }
-        });
-    }, { threshold: 0.5 });
-
-    const metricsSection = document.querySelector('.metrics');
-    if (metricsSection) {
-        observer.observe(metricsSection);
-    }
-}
-
-function animateCounter(element, start, end, duration) {
-    const startTime = performance.now();
-
-    function update(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-
-        // Easing function (easeOutExpo for more dramatic effect)
-        const easeOutExpo = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-
-        const current = Math.floor(start + (end - start) * easeOutExpo);
-        element.textContent = current;
-
-        if (progress < 1) {
-            requestAnimationFrame(update);
-        } else {
-            element.textContent = end;
-        }
-    }
-
-    requestAnimationFrame(update);
-}
 
 // ============= SMOOTH SCROLL (Enhanced) =============
 function initSmoothScroll() {
@@ -417,101 +341,6 @@ function initSmoothScroll() {
     });
 }
 
-// ============= FORM HANDLER (Enhanced) =============
-function initFormHandler() {
-    const form = document.getElementById('contactForm');
-
-    if (form) {
-        // Add input animations
-        const inputs = form.querySelectorAll('input, select, textarea');
-
-        inputs.forEach(input => {
-            input.addEventListener('focus', () => {
-                input.parentElement.classList.add('focused');
-            });
-
-            input.addEventListener('blur', () => {
-                input.parentElement.classList.remove('focused');
-                if (input.value) {
-                    input.parentElement.classList.add('filled');
-                } else {
-                    input.parentElement.classList.remove('filled');
-                }
-            });
-        });
-
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData);
-
-            const submitBtn = form.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
-
-            // Add loading class and disable button
-            submitBtn.classList.add('loading');
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Sending<span class="loading-dots"></span>';
-
-            // Simulate form submission (replace with actual API call)
-            try {
-                await simulateFormSubmission(data);
-
-                // Show success state
-                submitBtn.innerHTML = `
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:20px;height:20px">
-                        <polyline points="20 6 9 17 4 12"/>
-                    </svg>
-                    Message Sent!
-                `;
-                submitBtn.classList.remove('loading');
-                submitBtn.style.backgroundColor = '#22c55e';
-                submitBtn.style.color = '#ffffff';
-
-                // Reset form
-                form.reset();
-
-                // Reset button after delay
-                setTimeout(() => {
-                    submitBtn.disabled = false;
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.style.backgroundColor = '';
-                    submitBtn.style.color = '';
-                }, 3000);
-
-            } catch (error) {
-                // Show error state
-                submitBtn.innerHTML = 'Failed to send. Try again.';
-                submitBtn.classList.remove('loading');
-                submitBtn.style.backgroundColor = '#ef4444';
-                submitBtn.style.color = '#ffffff';
-
-                setTimeout(() => {
-                    submitBtn.disabled = false;
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.style.backgroundColor = '';
-                    submitBtn.style.color = '';
-                }, 3000);
-            }
-        });
-    }
-}
-
-// Simulate form submission (replace with actual API call)
-function simulateFormSubmission(data) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('Form data:', data);
-            // Simulate 95% success rate
-            if (Math.random() > 0.05) {
-                resolve({ success: true });
-            } else {
-                reject(new Error('Simulated error'));
-            }
-        }, 1500);
-    });
-}
 
 // ============= UTILITY FUNCTIONS =============
 
