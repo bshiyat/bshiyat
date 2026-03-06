@@ -16,24 +16,7 @@
 
 ---
 
-## About
-
-I'm a developer and founder building products that solve real problems for real people in the MENA region. I care about clean architecture, honest engineering, and shipping things that actually work.
-
-Currently heads-down on **Rannan** (رنّان) — a creator-brand marketplace for MENA with bilingual support, escrow payments, and an AI-assisted proposal flow.
-
----
-
-## What I'm building
-
-| Project | Description | Stack |
-|---|---|---|
-| 🔒 **Rannan** | Creator-brand marketplace for MENA — gig escrow, EN/AR, AI features | React Native · Expo · Supabase · Next.js |
-| **Bshiyat** | Product studio & web agency | Next.js · TypeScript |
-
----
-
-## Tech I use
+## Stack
 
 **Mobile**
 
