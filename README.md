@@ -1,10 +1,11 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=480&lines=Hey%2C+I'm+Bakr+%F0%9F%91%8B;Founder+%40+Bshiyat;Building+for+the+MENA+region)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=480&lines=Hey%2C+I'm+Bakr+%F0%9F%91%8B;Founder+%40+Bshiyat;Building+AI+for+Factory+Safety)](https://git.io/typing-svg)
 
 <p>
-  Founder & CEO at <strong>Bshiyat</strong> — a product studio based in Jordan 🇯🇴<br/>
-  I build mobile apps, web platforms, and AI-powered tools,<br/>mostly focused on the MENA market.
+  Founder & CEO at <strong>Bshiyat</strong> — an AI product studio based in Jordan 🇯🇴<br/>
+  Building <strong>on-prem AI video analytics</strong> for factory safety, PPE compliance,<br/>
+  and workforce analytics. Fully local, no cloud, no internet required.
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bakr-shwabkeh)
@@ -16,39 +17,42 @@
 
 ---
 
+## What I'm Building
+
+**AI Video Analytics for Industrial Safety** — a commercial product (software + purpose-built on-prem hardware appliance) for:
+
+- 🏭 **Factory Safety & PPE Compliance** — real-time detection of safety violations, missing PPE, and hazardous zone breaches
+- 👥 **Workforce Analytics** — productivity tracking, workflow optimization, and operational insights
+- 🔒 **Fully Air-Gapped** — runs entirely on-prem, no cloud dependency, no internet required
+- 🏥 **First Customer** — a large pharmaceutical manufacturer in Jordan
+
+---
+
 ## Stack
 
-**Mobile**
+**AI & Machine Learning**
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-007ACC?style=flat-square&logo=onnx&logoColor=white)
 
-**Web**
+**Web & Mobile**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
 
-**Backend & Data**
+**Backend & Infrastructure**
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**AI**
-
-![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-
-**Tools**
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 ---
 
@@ -72,5 +76,5 @@
 ---
 
 <div align="center">
-  <sub>Building things worth building — one commit at a time.</sub>
+  <sub>Building AI that keeps factories safe — from Jordan to the world.</sub>
 </div>
