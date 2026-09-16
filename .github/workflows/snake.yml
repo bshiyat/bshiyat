@@ -1,0 +1,32 @@
+name: Snake Animation
+
+on:
+  schedule:
+    # Runs every 6 hours to keep the snake fresh
+    - cron: "0 */6 * * *"
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: bshiyat
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake-light.svg
+
+      - name: Push to output branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git clone --single-branch --branch output https://github.com/bshiyat/bshiyat.git dist-repo
+          mkdir -p dist-repo/dist
+          cp dist/github-contribution-grid-snake-dark.svg dist-repo/dist/
+          cp dist/github-contribution-grid-snake-light.svg dist-repo/dist/
+          cd dist-repo
+          git add .
+          git commit -m "chore: update snake animation"
+          git push origin output
