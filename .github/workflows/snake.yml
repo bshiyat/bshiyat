@@ -9,6 +9,8 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -29,4 +31,4 @@ jobs:
           cd dist-repo
           git add .
           git commit -m "chore: update snake animation"
-          git push origin output
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/bshiyat/bshiyat.git output
