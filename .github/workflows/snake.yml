@@ -30,5 +30,9 @@ jobs:
           cp dist/github-contribution-grid-snake-light.svg dist-repo/dist/
           cd dist-repo
           git add .
+          if git diff --cached --quiet; then
+            echo "No changes to the snake SVGs since last run; nothing to push."
+            exit 0
+          fi
           git commit -m "chore: update snake animation"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/bshiyat/bshiyat.git output
